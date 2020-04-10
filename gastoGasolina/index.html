@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de gasto de gasolina</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <form>
+                <input type="number" id="kml" placeholder="Digite quantos km/l seu carro faz" required>
+
+                <input type="number" id="tempo" placeholder="Digite o tempo total da viagem" required>
+
+                <input type="number" id="velocidade" placeholder="Digite a velocidade média durante a viagem" required>
+
+                <button onclick="calculoCombustivel()">Calcular Combustível</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

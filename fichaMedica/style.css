@@ -1,0 +1,44 @@
+* {
+    font-family: monospace;
+}
+
+html {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(91, 194, 212);
+}
+
+body {
+    min-width: 150px;
+    min-height: 400px;
+    width: 50vw;
+    height: 75vh;
+    padding: 1em;
+    border: 1px solid lightgrey;
+    box-shadow: 2px 2px 5px 8px rgba(0,0,0,.25);
+    background-color: #ffffff;
+}
+
+h2 {
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style: square;
+}
+
+img {
+    width: 48px;
+    height: 48px;
+    border: 2px solid #ffffff;
+    vertical-align: middle;
+    background-color: lightgrey;
+}
+
+p {
+    display: inline-block;
+    width: 200px;
+}
